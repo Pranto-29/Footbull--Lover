@@ -127,3 +127,43 @@ img {
     gap: 20px;
     color:#161616cc;
 }
+
+
+@media (max-width:568px) {
+ .banner{
+  flex-direction: column;
+  padding: 15px;
+  min-width:auto;
+}
+.banner-left .banner-right {
+  padding: 10px 0;
+  text-align: center;
+}
+.banner-left h2 {
+  font-size: 28px;
+  line-height: 34px;
+}
+.banner-left p {
+ font-size: 16px;
+ max-width: 100px;
+}
+.banner-right img {
+  width: 100%;
+  margin: 20px 0 0 0;
+  border-radius: 12px;
+}
+.upcoming-match {
+  flex-direction: column;
+  padding: 20px 0;
+}
+.upcoming-match-left {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.upcoming-match-right {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+}
