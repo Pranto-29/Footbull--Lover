@@ -127,6 +127,17 @@ img {
     gap: 20px;
     color:#161616cc;
 }
+.footer h3{
+  text-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+  color:black;
+  font-weight: bold;
+  border: 2px solid gray;
+  padding: 20px;
+  font-size: 30px;
+}
 
 
 @media (max-width:568px) {
@@ -134,18 +145,23 @@ img {
   flex-direction: column;
   padding: 15px;
   min-width:auto;
+  background-color: violet;
 }
 .banner-left .banner-right {
   padding: 10px 0;
   text-align: center;
 }
-.banner-left h2 {
-  font-size: 28px;
-  line-height: 34px;
+.banner-left h2{
+  font-size: 30px;
+  color:crimson;
+  /* background-color: cadetblue; */
+  padding: 10px;
+  border-radius: 10px;
 }
 .banner-left p {
  font-size: 16px;
  max-width: 100px;
+ color:black;
 }
 .banner-right img {
   width: 100%;
@@ -155,6 +171,9 @@ img {
 .upcoming-match {
   flex-direction: column;
   padding: 20px 0;
+  /* background-color: blue; */
+  /* background-color: black; */
+background-color: white;
 }
 .upcoming-match-left {
   width: 100%;
@@ -165,5 +184,36 @@ img {
   grid-template-columns: 1fr;
   gap: 15px;
 }
-
+.banner-left p {
+  margin-top: 10px;
+ font-size: 14px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 3px;
+  margin: 0 auto;
+  max-width: 90%; 
+ 
 }
+.footer h3{
+  font-size: 20px;
+  color:blue;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.footer{
+  background-color: bisque;
+  color:black;
+}
+.footer h3{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+}
+
+
